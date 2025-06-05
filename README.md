@@ -1,4 +1,5 @@
-This crate implements a very simple MCP server from scratch; it is intended to integrate with local copilot tools and was tested with the Amazon Q CLI.
+This crate implements a very simple MCP server from scratch; it is intended to integrate with local copilot tools and was tested with the Amazon Q CLI. As a learning and debugging aid, it also opens a GUI window that displays the message flow between the AI Copilot and the MCP server, i.e.:
+![image](https://github.com/user-attachments/assets/307d47b2-0135-4043-b9c1-36889b1f5649)
 
 To use it, you must tell your AI Copilot how to launch the MCP. In the case of the Amazon Q CLI, create ~/.aws/amazonq/mcp.json with an entry similar to the following:
 
