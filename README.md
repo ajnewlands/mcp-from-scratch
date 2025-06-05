@@ -17,6 +17,7 @@ To use it, you must tell your AI Copilot how to launch the MCP. In the case of t
     }
 }
 ```
+In my case I am clobbering WAYLAND_DISPLAY because the GUI toolkit misbehaves under WSL2 when using Wayland - but works perfectly in X11 mode.
 
 After which, you can start up Q and play with the functions exposed by the MCP, which will play the role of Mr Sulu, helsman on the Starship Enterprise.
 As such it can set or check the warp factor setting (between 1 and 10) of the ships engines.
